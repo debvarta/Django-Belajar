@@ -1,0 +1,23 @@
+<hmtl>
+    <head>
+        <title>Lihat Siswa</title>
+    </head>
+<body>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Nisn</th>
+                <th>Nama</th>
+            </tr>
+        </thead>
+        <tbody>                      
+            {% for siswa in Semua_Siswa  %}                    
+           <tr>
+            <td>{{siswa.nisn}}</td>
+            <td>{{siswa.nama}}</td>
+            </tr>
+        </tbody>
+            {% endfor %}
+    </table>
+</body>
+</html>
