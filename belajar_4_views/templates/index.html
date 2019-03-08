@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django 4 Belajar</title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td>Nama</td>
+            <td>Alamat</td>
+            <td>Email</td>
+            <td>Password</td>
+            <td>Username</td>
+        </tr>
+        <tr>     
+            {% for list in list_user  %}
+            <td>{{list.nama}}</td>
+            <td>{{list.alamat}}</td>
+            <td>{{list.email}}</td>
+            <td>{{list.password}}</td>
+            <td>{{list.username}}</td>
+            {% endfor %}
+        </tr>
+    </table>
+</body>
+</html>
