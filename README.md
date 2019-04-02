@@ -1,2 +1,2 @@
 # Django-Belajar
-https://pancaclan.blogspot.com/search/label/Django
+https://pancacourse.blogspot.com/search/label/Django
